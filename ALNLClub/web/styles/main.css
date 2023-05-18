@@ -1,0 +1,245 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 7, 2023, 1:43:42 p.m.
+    Author     : fredd
+*/
+
+body{
+    background-image: linear-gradient(white, orange);
+    padding: 15px;
+}
+
+.container{
+    padding: 20px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.dateTime{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header{
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-gap: 0px;
+
+    justify-content: center;
+    align-items: center;
+    
+    height: 100px;
+    
+}
+
+header img{
+    height: 80px;
+    padding: 0;
+}
+
+header h1{
+    margin : 0; 
+    padding: 0;
+    color: orange;
+}
+
+header h2{
+    margin : 0; 
+    font-style: italic;
+    padding: 10px 0;
+    color: green;
+}
+
+hr{
+    border: 1px solid orange;
+}
+
+nav{
+    /*background-color: coral;*/
+}
+
+nav ul {
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+  
+}
+
+nav ul li {
+  display: inline;
+  border-left: 3px solid black;
+  padding: 0px 20px 0px 20px;
+  color: green;
+}
+
+nav ul li{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* unvisited link */
+nav a:link {
+  color: green;
+}
+
+/* visited link */
+nav a:visited {
+  color: green;
+}
+
+
+.stForm > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.stForm > form > .form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+ }
+.stForm > form > .form-row > label {
+    padding: .5em .2em .5em 0;
+    flex: 1;
+}
+.stForm > form > .form-row > input {
+    flex: 2;
+}
+
+
+.memberForm{
+    padding: 0;
+    width: 1000px;
+    font-weight: bold;
+}
+
+.memberFormRow{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    padding: 5px 5px;
+}
+
+.greenLink{
+    color: green;
+}
+
+#button {
+    background: gray;
+    color: white;
+    border: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+   
+}
+
+.buttonStyle{
+    background: gray;
+    color: white;
+    border: 0;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.displayMember{
+    text-align: left;
+}
+
+.memberInfo{
+    width: 500px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.memberInfo p{
+    font-weight: bold;
+}
+
+.display-container{
+    padding: 20px;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.displayMember {
+  display: flex;
+  flex-direction: column;
+  /*align-items: flex-start;*/
+  margin-left: 10px;
+}
+
+.displayMember > p {
+    /*justify-content: space-between;*/
+    padding: 0px 0;
+    font-weight: bold;
+}
+.displayMember > p span {
+    display: flex;
+    flex-direction: row;
+}
+
+.displayMember > h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* unvisited link */
+.adminBookLink > a{
+  color: green;
+}
+
+/* unvisited link */
+.adminBookLink > a:link {
+  color: green;
+}
+
+/* visited link */
+.adminBookLink > a:visited {
+  color: green;
+}
+
+footer{
+    text-align: right;
+}
+
+.booksTable {
+    border: 1px solid;
+}
+
+table, th, td{
+  border: 1px solid;
+}
+
+div.addBookTable table, div.addBookTable th, div.addBookTable td{
+    border: none;
+}
+
+
+#errorMessage{
+    color: red;
+}
+
+
+.loansTable, div.loansTable table, div.loansTable th, div.loansTable td{
+    border: none;
+}
+
+div.loansTable table, div.loansTable th, div.loansTable td{
+    border: none;
+}
+
+.cartTable, div.cartTable table, div.cartTable th, div.cartTable td{
+    border: none;
+}
